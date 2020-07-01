@@ -12,6 +12,7 @@ public class StoreItem
     public int Price;
     public Sprite Icon;
     public GameObject Prefab;
+    public CharacterController controller;
 }
 
 public class Store : Singleton<Store>

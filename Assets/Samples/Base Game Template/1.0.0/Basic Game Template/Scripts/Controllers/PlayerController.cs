@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
     int currLane = 0;
     Animator animator;
 
+
     private void Awake()
     {
         rigidbody = GetComponentInChildren<Rigidbody>();
@@ -40,8 +41,12 @@ public class PlayerController : MonoBehaviour
         if (animator != null) {
             Destroy(animator.gameObject);
         }
+        Debug.Log(characterItem.Prefab);
         GameObject characterInstance = Instantiate(characterItem.Prefab, transform);
+        //prefab as to be an really default than only programer dev at begining
+        
         animator = characterInstance.GetComponent<Animator>();
+        //animator.runtimeAnimatorController = characterItem.controller;
     }
 
     public void StartMoving()

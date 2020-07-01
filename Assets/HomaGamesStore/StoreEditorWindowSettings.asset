@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 038792e49517f1f499775f13e86afd71, type: 3}
+  m_Name: StoreEditorWindowSettings
+  m_EditorClassIdentifier: 
+  ItemsFolder: 
+  ShowInfos: 1
+  ShowSettings: 0
+  Colliders:
+  - Name: Default
+    Collider: {fileID: 419981623624403043, guid: 430ddd302a100a44784be87661675257,
+      type: 3}
+  Animators:
+  - Name: Human
+    Animator: {fileID: 8516951517286390805, guid: c1e1541706320244986b8efce9c477a5,
+      type: 3}
+  - Name: Zombie
+    Animator: {fileID: 7804712550382494617, guid: 42bc071ed9c5aa74f8ffb144eaed8c49,
+      type: 3}
